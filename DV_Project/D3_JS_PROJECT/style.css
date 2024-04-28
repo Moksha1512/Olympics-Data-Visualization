@@ -1,0 +1,162 @@
+/* CSS styles */
+body {
+    background-color: #000000; /* Set background color to black */
+    overflow: hidden; /* Prevent scrolling */
+}
+h3{
+    left:200px;
+    top:40px;
+    color: #fff;
+    margin-left: 323px;
+    margin-right: -25px;
+  margin-left: 1px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* #pie{
+    background-color: #fff;
+    position: absolute;
+    top: 250px;
+    right: 0;
+} */
+.legend {
+    position: absolute;
+    right: 20px; /* Adjusted position */
+    top: 50px; /* Adjusted position */
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.legend-rect {
+    width: 40px;
+    height: 10px;
+    margin-right: 5px;
+    display: inline-block;
+}
+.dropdown-container {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    text-align: center; /* Center text within the container */
+    margin-bottom: -36px;
+    margin-left: -76px;
+}
+
+.dropdown-container h2 {
+    margin-right: 10px; /* Add space between heading and dropdown */
+    margin-bottom: 0; /* Remove default margin */
+}
+
+.dropdown-container select {
+    margin: 0 10px; /* Add space around dropdowns */
+}
+
+#season-dropdown {
+    position: absolute;
+    top: 35px;
+    left: 534px;
+    padding: 2px;
+    margin-bottom: 10px;
+    z-index: 999; /* Ensure it's on top of other elements */
+}
+.legend-axis text {
+    font-size: 10px;
+    fill: white;
+}
+
+.legend-title {
+    font-size: 14px;
+    font-weight: bold;
+    fill: white;
+}
+
+
+.rect.bar {
+    stroke: #fff;
+}
+
+.rect.gold {
+    fill: gold;
+}
+
+.rect.silver {
+    fill: silver;
+}
+
+.rect.bronze {
+    fill: #cd7f32;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+.countries {
+    fill: none;
+    stroke: #0c8ce7;
+    stroke-linejoin: round;
+}
+
+.legendThreshold {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.caption {
+    fill: #fff;
+    text-anchor: start;
+    font-weight: bold;
+}
+
+
+#sport-label,
+#discipline-label {
+    position: absolute;
+    top: 10px;
+    left: 10px; /* Adjust left position as needed */
+    color: white; /* Text color */
+    font-size: 14px; /* Font size */
+}
+
+#sport-dropdown,
+#discipline-dropdown {
+    position: absolute;
+    top: 35px;
+    left: 615px;
+    margin-bottom: 10px;
+    z-index: 999; /* Ensure it's on top of other elements */
+    color: black; /* Text color */
+    background-color: white; /* Background color */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 4px; /* Border radius */
+    padding: 2px; /* Padding */
+    font-size: 14px; /* Font size */
+}
+
+.if{
+    top:10px;
+     margin-top: -70px;
+     margin-right: 40px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.namei{
+    left:30px;
+    top:10px;
+    color:#fff;
+    margin-left:1px; 
+     margin-top:-76px;
+     font-size: 15px;
+     font-family: 'Times New Roman', Times, serif;
+}

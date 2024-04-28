@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choropleth Map</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- SVG container -->
+        <h3>120 YEARS OF OLYMPICS DATA VISUALIZATION</h3>
+        <div class="dropdown-container">
+            <h3 class="if">Season</h3>
+            <select id="season-dropdown">
+                <option value="All">All</option>
+                <option value="Summer">Summer</option>
+                <option value="Winter">Winter</option>
+            </select>
+            <h3 class="namei">Sport</h3>
+            <select id="sport-dropdown">
+                <option value="All">All</option>
+            </select>
+        </div>
+        
+        <svg id="map" width="1200" height="800"></svg>
+        <div class="background-image">
+            <!-- SVG container --></div>
+    <!-- JavaScript libraries -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
